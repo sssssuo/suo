@@ -54,3 +54,4 @@ st.dataframe(comparison)
 st.subheader("연대별 분포")
 decade_counts = df_clean['Decade'].value_counts().sort_index()
 st.bar_chart(decade_counts)
+
